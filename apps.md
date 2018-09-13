@@ -5,7 +5,7 @@
 ```
 ## brew cask
 ```bash
-brew cask install atom google-chrome alfred slack jetbrains-toolbox docker gyazo goenv rbenv kindle vlc pomodone
+brew cask install atom google-chrome alfred slack jetbrains-toolbox docker gyazo goenv rbenv kindle vlc pomodone iterm2 zsh
 ```
 
 ## other tools
