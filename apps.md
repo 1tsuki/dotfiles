@@ -21,5 +21,5 @@ add `usr/local/bin/zsh`
 
 ## other tools
 - todoist
-https://github.com/agnoster/agnoster-zsh-theme
+- https://github.com/agnoster/agnoster-zsh-theme
 
