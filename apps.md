@@ -5,7 +5,7 @@
 ```
 ## brew cask
 ```bash
-brew install zsh zplug goenv rbenv
+brew install zsh zplug goenv rbenv mysql
 brew cask install atom google-chrome alfred slack jetbrains-toolbox docker gyazo kindle vlc pomodone iterm2 tweeten 
 ```
 
