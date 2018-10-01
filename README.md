@@ -16,7 +16,7 @@ follow instructions [here](https://brew.sh/index_ja)
 
 ## brew install things
 ```bash
-% brew install zsh zplug goenv rbenv mysql
+% brew install zsh zplug go goenv rbenv mysql
 % brew cask install atom google-chrome google-japanese-ime alfred slack jetbrains-toolbox docker gyazo kindle vlc pomodone iterm2 tweeten marshallofsound-google-play-music-playe firefox
 ```
 
