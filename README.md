@@ -1,34 +1,54 @@
-# brew
-## brew
+# dotfiles
+Personal environment setup kit. Would become an `ansible script` in future.
+
+## At first
+Copy private keys to new device, dotfiles are saved in private repo.
+
+## OSX System Preferences
+### Keyboard
+`System Preferences` -> `Keyboard` -> `Keyboard` -> `Modifier Keys...``
+
+Bind `Caps Lock Key` to `Control`
+
+## homebrew
+### install homebrew
+follow instructions [here](https://brew.sh/index_ja)
+
+## brew install things
 ```bash
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
-## brew cask
-```bash
-brew install zsh zplug goenv rbenv mysql
-brew cask install atom google-chrome alfred slack jetbrains-toolbox docker gyazo kindle vlc pomodone iterm2 tweeten marshallofsound-google-play-music-player 
+% brew install zsh zplug goenv rbenv mysql
+% brew cask install atom google-chrome google-japanese-ime alfred slack jetbrains-toolbox docker gyazo kindle vlc pomodone iterm2 tweeten marshallofsound-google-play-music-player
 ```
 
-# Terminal
-## iterm
-set coloring as [dracula](https://draculatheme.com/iterm/)
+## setup brewed apps
+### google-japanese-input
+`System preferences` -> `Keyboard` -> `Input Sources`
+Add `Alphanumeric (Google)`, `Hiragana (google)` then remove all existings.
 
-## oh-my-zsh
+### iterm
+Set iterm coloring as [dracula](https://draculatheme.com/iterm/)
+
+### oh-my-zsh
 ```bash
-sudo vi /etc/shells
+% sudo vi /etc/shells
 # add `usr/local/bin/zsh`
-chsh -s /usr/local/bin/zsh
-curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
+% chsh -s /usr/local/bin/zsh
+% curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
 ```
 
-## agnoster theme
-set theme as [agnoster](https://github.com/CyberLight/agnoster.zsh-theme)
+### oh-my-zsh agnoster theme
+Setup fixed version of [agnoster](https://github.com/CyberLight/agnoster.zsh-theme)
 - install powerline fonts
 - set iterm font as powerline
-- replace ~/.oh-my-zsh/themes/agnoster.zsh-theme with fixed one
 
-## .zshrc
+### .zshrc
 replace .zshrc
 
-# other tools
-- todoist
+If the username is not 1tsuki, `sed` it.
+```bash
+% sed -i -e "s/1tsuki/[new_username_here]/g" ~/.zshrc
+```
+
+## setup Appstore apps
+- todoist (task management)
+- spark (mailer)
