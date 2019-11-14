@@ -16,8 +16,8 @@ follow instructions [here](https://brew.sh/index_ja)
 
 ## brew install things
 ```bash
-% brew install zsh zplug go goenv rbenv mysql tree
-% brew cask install atom google-chrome google-japanese-ime alfred slack jetbrains-toolbox docker gyazo kindle vlc pomodone iterm2 tweeten marshallofsound-google-play-music-playe firefox
+% brew install zsh zplug go rbenv mysql tree
+% brew cask install atom google-chrome google-japanese-ime alfred slack jetbrains-toolbox docker kindle vlc iterm2 marshallofsound-google-play-music-player firefox
 ```
 
 ## setup brewed apps
