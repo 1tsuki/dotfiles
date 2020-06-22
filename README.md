@@ -17,10 +17,15 @@ follow instructions [here](https://brew.sh/index_ja)
 ## brew install things
 ```bash
 % brew install zsh zplug go rbenv mysql tree
-% brew cask install atom google-chrome google-japanese-ime alfred slack jetbrains-toolbox docker kindle vlc iterm2 evernote firefox
+% brew cask install atom google-chrome google-japanese-ime alfred slack jetbrains-toolbox docker kindle vlc iterm2 evernote firefox zoom yt-music karabiner-elements
 ```
 
 ## setup brewed apps
+### karabiner(to swap opt/cmd in majestouch)
+- Launch karabiner-elements
+- copy karabiner.json to ~/.config/karabiner
+
+
 ### google-japanese-input
 `System preferences` -> `Keyboard` -> `Input Sources`
 Add `Alphanumeric (Google)`, `Hiragana (google)` then remove all existings.
