@@ -36,7 +36,7 @@ Set iterm coloring as [dracula](https://draculatheme.com/iterm/)
 ### oh-my-zsh
 ```bash
 % sudo vi /etc/shells
-# add `usr/local/bin/zsh`
+# add `/usr/local/bin/zsh`
 % chsh -s /usr/local/bin/zsh
 % curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
 ```
@@ -57,3 +57,4 @@ If the username is not 1tsuki, `sed` it.
 ## setup Appstore apps
 - todoist (task management)
 - spark (mailer)
+- [kensington works](https://www.kensington.com/ja-jp/software/kensingtonworks/)
